@@ -12,8 +12,8 @@ import FramerWrapper from "@/components/animation/FramerWrapper";
 export const siteConfig = {
   name: "Adil",
   description: "I am a Passionate Software Developer",
-  // ogImage: "https://adil.wedotes.com/portfolioLogo.png",
-  ogImage: "https://avatars.githubusercontent.com/u/156329488",
+  ogImage: "https://adil.wedotes.com/portfolioLogo.png",
+  // ogImage: "https://avatars.githubusercontent.com/u/156329488",
   url: "https://adil.wedotes.com",
 }
 export default function Home() {
