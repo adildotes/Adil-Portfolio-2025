@@ -21,18 +21,12 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-5">
         <Heading>
-          Software Engineer And Web <br /> Developer, Based In India.
+          MERN Full Stack <br /> Developer, Based in Pakistan.
         </Heading>
 
         <FramerWrapper y={0} x={100}>
-          <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg ">
-            I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand,
-            India. I&apos;m passionate about crafting web projects and
-            contributing to open-source communities. I specialize in modern
-            JavaScript frameworks and responsive CSS design, focusing on
-            creating pixel-perfect, user-friendly interfaces. With strong
-            attention to detail and efficient delivery, I build seamless web
-            experiences that combine functionality with elegant design.
+          <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
+            I am a MERN Stack Developer from Karachi, Pakistan. I&apos;m passionate about building web and mobile applications and contributing to innovative projects. I specialize in modern JavaScript frameworks like Next.js and React, along with backend technologies such as Node.js, Express.js, and MongoDB. With a strong focus on UI/UX and responsive design, I strive to create seamless, user-friendly, and efficient digital experiences.
           </p>
         </FramerWrapper>
       </div>
