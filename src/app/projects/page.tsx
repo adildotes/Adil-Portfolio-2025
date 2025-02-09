@@ -15,26 +15,26 @@ to connect, collaborate, and code together. Join the conversation and level up y
       tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
       link: "https://devzone-ti.vercel.app/",
     },
-   
+
     {
       title: "itZmyLink- One Page many Links",
       description:
         "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+      link: "https://itzmylink.vercel.app/",
     },
     {
       title: "GitEstimate- Github estimate worth generator",
       description:
         "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+      link: "https://gitestimate.vercel.app/",
     },
     {
       title: "Mixcn-ui- Reusable components for Nextjs",
       description:
         "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx","Library"],
+      tags: ["Nextjs", "Shadcnui", "Npx", "Library"],
       link: "https://mixcn-ui.vercel.app",
     },
     {
@@ -51,7 +51,7 @@ to connect, collaborate, and code together. Join the conversation and level up y
       tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
       link: "https://formcraft-ti.vercel.app/",
     },
-    
+
     {
       title: "KryptoKapital- Investing in Cryptocurreny",
       description:
@@ -64,28 +64,28 @@ to connect, collaborate, and code together. Join the conversation and level up y
       description:
         "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
       tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
+      link: "https://friendz.vercel.app/signin",
     },
     {
       title: "ChatApp- Simple instagram clone",
       description:
         "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
       tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
+      link: "https://chathere-ti.netlify.app/",
     },
     {
       title: "Devletter - A Newsletter for devs",
       description:
         "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
       tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
+      link: "https://devletter.vercel.app/",
     },
     {
       title: "CrouMaker - A Crousal Maker App",
       description:
         "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
       tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+      link: "https://crousal-maker.vercel.app/",
     },
   ];
 

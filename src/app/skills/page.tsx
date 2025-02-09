@@ -53,6 +53,10 @@ const skillPage = () => {
       name: "Material UI",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
     },
+    {
+      name: "Node.js",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    },
   ];
 
   const tools = [
@@ -80,6 +84,10 @@ const skillPage = () => {
       name: "MongoDB",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     },
+    {
+      name: "Redux Toolkit",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+    },
     // {
     //   name: "PostgreSQL",
     //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
@@ -97,10 +105,7 @@ const skillPage = () => {
         <Heading>My Technical Experience/Skills.</Heading>
         <FramerWrapper y={0} x={200}>
           <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-            Currently i am a fresher and i have a solid understand of HTML5,
-            CSS3, JS, TS and React, including responsive design principles. I
-            specialize in building web applications and sites using Javascript,
-            Typescript, React, Nextjs & Node.
+            I am a professional MERN Stack Developer with a solid understanding of HTML5, CSS3, JavaScript (JS), TypeScript (TS), and React, including responsive design principles. I specialize in building web and mobile applications using JavaScript, TypeScript, React, Next.js, Node.js, Express.js, MongoDB, Firebase, and Zustand for state management. Additionally, I have experience with UI libraries like MUI and DaisyUI, along with backend development and authentication using JWT. My goal is to create seamless, efficient, and user-friendly digital experiences.
           </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">
