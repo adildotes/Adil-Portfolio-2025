@@ -8,11 +8,10 @@ import FramerWrapper from "./animation/FramerWrapper";
 
 const SocialLinks = () => {
   const links = [
-    { name: "Facebook", link: "https://www.facebook.com/adildotes", icon: <Facebook /> },
+    { name: "Facebook", link: "https://www.facebook.com/its.adildotes/", icon: <Facebook /> },
     { name: "Twitter", link: "https://twitter.com/adildotes", icon: <Twitter /> },
     { name: "Linkedin", link: "https://www.linkedin.com/in/adildotes/", icon: <Linkedin /> },
-    { name: "Linkedin", link: "https://www.instagram.com/adildotes", icon: <Instagram /> },
-    // { name: "External", link: "https://tinyurl.com/adildotes", icon: <ExternalLink /> },
+    { name: "Instagram", link: "https://www.instagram.com/mr_adildotes/", icon: <Instagram /> },
   ];
   return (
     <>
