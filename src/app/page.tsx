@@ -1,5 +1,3 @@
-
-
 import SocialLinks from "@/components/SocialLinks";
 import HeroTexts from "@/components/HeroTexts";
 import HeroImage from "@/components/HeroImage";
@@ -7,34 +5,41 @@ import GithubBtn from "@/components/animation/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 
-//Adil
-
 export const siteConfig = {
   name: "Adil",
   description: "I am a Passionate Software Developer",
   ogImage: "https://adil.wedotes.com/og-image.png",
   url: "https://adil.wedotes.com",
-}
+};
+
 export default function Home() {
   return (
-   <>
-      {/* LEFT SIDE  */}
-      <FramerWrapper className=" h-full w-auto flex flex-col justify-start gap-4" y={0} x={-100}>
+    <section className="flex flex-col items-center justify-center min-h-screen w-full px-6 md:px-12 lg:px-24 py-12">
+
+      {/* TOP CONTENT */}
+      <FramerWrapper
+        className="flex flex-col items-center justify-center text-center gap-6 max-w-3xl"
+        y={0}
+        x={-50}
+      >
         <HeroTexts />
-        <div className="h-fit w-full p-4 flex gap-4">
+        <div className="flex justify-center gap-4 flex-wrap">
           <SocialLinks />
         </div>
-       <DownLoadResumeBtn/>
+        <DownLoadResumeBtn />
       </FramerWrapper>
-      {/* RIGHT SIDE image  */}
-      <FramerWrapper className="h-full w-[47%] relative block   max-lg:hidden" y={0} x={100}>
-       
-      {/* IMAGE  */}
+
+      {/* IMAGE BELOW CONTENT */}
+      <FramerWrapper
+        className="mt-12 flex justify-center items-center w-full"
+        y={0}
+        x={50}
+      >
         <HeroImage />
       </FramerWrapper>
-     
-      {/* GITHUB BUTTON  */}
-      <GithubBtn/>
-      </>
+
+      {/* GITHUB BUTTON (FLOATING / FIXED) */}
+      <GithubBtn />
+    </section>
   );
 }
